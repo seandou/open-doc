@@ -2,8 +2,10 @@
 
 'use strict';
 
+var openDoc = require('../lib/open-doc.js');
+
 var printHelp = function() {
-  var helpDoc = [
+  var help = [
     "",
     "Usage: open-doc [package]",
     "",
@@ -13,7 +15,7 @@ var printHelp = function() {
     ""
   ].join("\n");
   
-  console.log(helpDoc);
+  console.log(help);
   process.exit(0);
 };
 
@@ -22,7 +24,8 @@ function main() {
     printHelp();
   }
 
-  
+  var packageName = process.argv[2];
+  openDoc(packageName);
 }
 
 main();

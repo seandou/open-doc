@@ -2,9 +2,7 @@
   "name": "open-doc",
   "version": "0.1.0",
   "description": "Quickly open url of npm package document in browser.",
-  "homepage": [
-    "https://github.com/seandou/open-doc.git"
-  ],
+  "homepage": "https://github.com/seandou/open-doc",
   "repository": {
     "type": "git",
     "url": "git@github.com:seandou/open-doc.git"
@@ -23,7 +21,8 @@
   ],
   "main": "./lib/open-doc.js",
   "dependencies": {
-    "openurl": "^1.1.0"
+    "openurl": "^1.1.0",
+    "request": "^2.54.0"
   },
   "devDepdencies": {},
   "bin": {
