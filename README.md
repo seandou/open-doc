@@ -1,4 +1,4 @@
-open-doc 
+open-doc
 =========
 
 Quickly open url of npm package document in browser.
@@ -30,4 +30,3 @@ License
 
 (MIT License)
 
-Copyright 2015, Sean Dou <douguohui@gmail.com>
