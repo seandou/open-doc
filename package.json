@@ -1,0 +1,35 @@
+{
+  "name": "open-doc",
+  "version": "0.1.0",
+  "description": "Quickly open url of npm package document in browser.",
+  "homepage": [
+    "https://github.com/seandou/open-doc.git"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seandou/open-doc.git"
+  },
+  "keywords": [
+    "open",
+    "npm",
+    "document",
+    "browser"
+  ],
+  "author": "Sean Dou <douguohui@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./lib/open-doc.js",
+  "dependencies": {
+    "openurl": "^1.1.0"
+  },
+  "devDepdencies": {},
+  "bin": {
+    "open-doc": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}
