@@ -6,7 +6,6 @@ var openDoc = require('../lib/open-doc.js');
 
 var printHelp = function() {
   var help = [
-    "",
     "Usage: open-doc [package]",
     "",
     "Example:",
