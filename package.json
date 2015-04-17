@@ -1,6 +1,6 @@
 {
   "name": "open-doc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly open npm package document in browser.",
   "homepage": "https://github.com/seandou/open-doc",
   "repository": {
