@@ -2,29 +2,29 @@
 
 'use strict';
 
+var program = require('commander');
 var openDoc = require('../lib/open-doc.js');
+var appInfo = require('./../package.json');
 
-var printHelp = function() {
-  var help = [
-    "Usage: open-doc [package]",
-    "",
-    "Example:",
-    "",
-    "  open-doc gulp",
-    ""
-  ].join("\n");
-  
-  console.log(help);
-  process.exit(0);
-};
+program
+  .version(appInfo.version)
+  .usage('[options] <package>')
+  .option('-n, --npm', 'Open document page of npmjs.com')
+  .option('-g, --github', 'Open document page of github.com')
+  .parse(process.argv);
 
-function main() {
-  if (process.argv.length < 3) {
-    printHelp();
-  }
-
-  var packageName = process.argv[2];
-  openDoc(packageName);
+if (program.args.length != 1) {
+  program.help();
 }
 
-main();
+var site = 'default';
+
+if (program.npm) {
+  site = 'npmjs';
+}
+
+if (program.github) {
+  site = 'github';
+}
+
+openDoc(program.args[0], site);

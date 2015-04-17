@@ -1,3 +1,7 @@
+1.0.0 / 2015-4-17
+------------------
+* Add more options for open doc in github or npmjs.
+
 0.1.2 / 2015-4-1
 ------------------
 * Fix bug: when package homepage is not a valid url.
