@@ -9,8 +9,8 @@ var appInfo = require('./../package.json');
 program
   .version(appInfo.version)
   .usage('[options] <package>')
-  .option('-n, --npm', 'Open document page of npmjs.com')
-  .option('-g, --github', 'Open document page of github.com')
+  .option('-n, --npm', 'open document page in npmjs.com')
+  .option('-g, --github', 'open document page in github.com')
   .parse(process.argv);
 
 if (program.args.length != 1) {
