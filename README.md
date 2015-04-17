@@ -15,14 +15,14 @@ Usage
 ------
 
 ```
-  Usage: open-doc [options] <package>
+Usage: open-doc [options] <package>
 
-  Options:
+Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
-    -n, --npm      Open document page in npmjs.com
-    -g, --github   Open document page in github.com
+  -h, --help     output usage information
+  -V, --version  output the version number
+  -n, --npm      Open document page in npmjs.com
+  -g, --github   Open document page in github.com
 ```
 
 ### eg.
