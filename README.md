@@ -1,8 +1,9 @@
-open-doc
+open-doc [![NPM version][npm-version-image]][npm-url]
 =========
-[![NPM version][npm-image]][npm-url]
 
 Quickly open npm package document in browser.
+
+[![NPM version][npm-download-image]][npm-url]
 
 
 Installation
@@ -44,5 +45,6 @@ License
 
 (MIT License)
 
-[npm-image]: https://img.shields.io/npm/v/open-doc.svg?style=flat-square
+[npm-version-image]: https://img.shields.io/npm/v/open-doc.svg?style=flat-square
+[npm-download-image]: https://nodei.co/npm/open-doc.png?downloads=true
 [npm-url]: https://npmjs.org/package/open-doc
