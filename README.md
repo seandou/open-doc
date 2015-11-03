@@ -27,17 +27,23 @@ Options:
   -g, --github   Open document page in github.com
 ```
 
-### eg.
+### samples
 
-- `open-doc express` => `http://expressjs.com/`
-- `open-doc express --npm` => `https://www.npmjs.com/package/express`
-- `open-doc express --github` => `https://github.com/strongloop/express`
+- `open-doc express`
 
+    open express offcial site`http://expressjs.com/`
 
-Similar package
----------------
+- `open-doc express --npm`
 
-If you prefer to view document in terminal, you could use [nd](https://www.npmjs.com/package/nd) instead.
+    open npm package `https://www.npmjs.com/package/express`
+
+- `open-doc express --github`
+
+    open github profile `https://github.com/strongloop/express`
+
+- `open-doc .`
+
+    open current homepage according package.json
 
 
 License
