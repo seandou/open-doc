@@ -5,6 +5,10 @@ Quickly open npm package document in browser.
 
 [![NPM version][npm-download-image]][npm-url]
 
+Screenshot
+------------
+![usage](https://raw.githubusercontent.com/seandou/open-doc/master/screenshot.gif)
+
 
 Installation
 -------------
